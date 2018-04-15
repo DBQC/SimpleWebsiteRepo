@@ -43,8 +43,9 @@
     <Compile Include="BaseClasses\Animal.cs" />
     <Compile Include="BaseClasses\David.cs" />
     <Compile Include="BaseClasses\Money.cs" />
+    <Compile Include="GoldenRetriever.cs" />
     <Compile Include="Interfaces\IAnimal.cs" />
-    <Compile Include="Interfaces\WooWoo.cs" />
+    <Compile Include="BaseClasses\WooWoo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
