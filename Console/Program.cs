@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DataAcessLayer;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
@@ -13,6 +14,14 @@ namespace Console
     {
         static void Main(string[] args)
         {
+            //FirstExampleDave();
+            
+            System.Console.WriteLine(Class1.something());
+            System.Console.ReadKey();
+        }
+
+        private static void FirstExampleDave()
+        {
             GradeBook davesGrades = new GradeBook();
             Stopwatch timer = Stopwatch.StartNew();
             davesGrades.AddGrade(5f);
@@ -20,9 +29,9 @@ namespace Console
             timer.Stop();
             System.Console.WriteLine(davesGrades.Printgrades() + " " + timer.Elapsed);
             timer = Stopwatch.StartNew();
-            FieldInfo prop = typeof(GradeBook).GetField("grades", (BindingFlags)int.MaxValue-1);
+            FieldInfo prop = typeof(GradeBook).GetField("grades", (BindingFlags)int.MaxValue - 1);
             List<float> hack = new List<float>();
-            hack.Add(10f); 
+            hack.Add(10f);
             prop.SetValue(davesGrades, hack);
             timer.Stop();
             System.Console.WriteLine(davesGrades.Printgrades() + " " + timer.Elapsed);

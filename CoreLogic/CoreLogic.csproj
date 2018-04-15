@@ -41,7 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BaseClasses\Animal.cs" />
-    <Compile Include="GoldenRetriever.cs" />
+    <Compile Include="Inheritance\GoldenRetriever.cs" />
     <Compile Include="Implementation\WooWoo.cs" />
     <Compile Include="Interfaces\IAnimal.cs" />
     <Compile Include="Inheritance\WooWoo.cs" />

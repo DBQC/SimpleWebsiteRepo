@@ -24,9 +24,9 @@ namespace CoreLogic
         /// Average Lifespan for an indivdual animal.
         /// </summary>
         public int Lifespan { get;  set; }
-        string PrintStats()
+        public virtual string PrintStats()
         {
-            return $"Species:{Species}" + Environment.NewLine + $"Domesticated: {Domestic}" + Environment.NewLine + $"Average Lifespan: {Lifespan}";
+            return $"Species:{Species}" + Environment.NewLine + $"Domesticated: {Domestic }" + Environment.NewLine + $"Average Lifespan: {Lifespan}";
 
         }
     }

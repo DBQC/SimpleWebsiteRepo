@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CoreLogic
+namespace CoreLogic.Inheritance
 {
     class GoldenRetriever : WooWoo
     {

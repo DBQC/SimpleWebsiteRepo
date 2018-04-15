@@ -1,0 +1,14 @@
+﻿@model AnimalShop.Models.AdventureWorksViewModel
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@Html.Label("Name")
+@Html.LabelFor(m => m.Name)
+@foreach (var item in Model.People)
+{
+    <div>
+        @item.FirstName
+        <hr/>
+    </div>
+}
