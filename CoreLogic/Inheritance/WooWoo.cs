@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CoreLogic.Interfaces
+namespace CoreLogic.Inheritance
 {
     class WooWoo : Animal
     {

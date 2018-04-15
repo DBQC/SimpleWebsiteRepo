@@ -41,11 +41,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BaseClasses\Animal.cs" />
-    <Compile Include="BaseClasses\David.cs" />
-    <Compile Include="BaseClasses\Money.cs" />
     <Compile Include="GoldenRetriever.cs" />
+    <Compile Include="Implementation\WooWoo.cs" />
     <Compile Include="Interfaces\IAnimal.cs" />
-    <Compile Include="BaseClasses\WooWoo.cs" />
+    <Compile Include="Inheritance\WooWoo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
