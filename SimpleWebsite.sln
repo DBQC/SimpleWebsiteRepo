@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimalShop.Tests", "AnimalS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAcessLayer", "DataAcessLayer\DataAcessLayer.csproj", "{B43C9A6D-1DAA-49AA-B8F1-FCCF8804E12A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiFun", "WebApiFun\WebApiFun.csproj", "{0523B404-346F-4D4C-AE73-7E0DD47985F0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{B43C9A6D-1DAA-49AA-B8F1-FCCF8804E12A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B43C9A6D-1DAA-49AA-B8F1-FCCF8804E12A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B43C9A6D-1DAA-49AA-B8F1-FCCF8804E12A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0523B404-346F-4D4C-AE73-7E0DD47985F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0523B404-346F-4D4C-AE73-7E0DD47985F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0523B404-346F-4D4C-AE73-7E0DD47985F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0523B404-346F-4D4C-AE73-7E0DD47985F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
